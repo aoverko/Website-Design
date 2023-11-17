@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <title>Castles in the Air</title>
+    <link rel="stylesheet" href="Project 1 Styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Slabo 27px' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Source Serif Pro' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto Slab' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar START... Framework curtesy of my Dad :) (He's better than Bootstrap!) -->
+    <p style="border-bottom: 1.5px solid black; padding-bottom: 15px; margin-bottom: 15px"></p>
+    <div id="navContent">
+        <div class="navElement">
+            <a class="nav-link" id="annelink"
+                href="https://www.goodreads.com/book/show/8127.Anne_of_Green_Gables?from_search=true&from_srp=true&qid=CFGbkZrA8W&rank=1">Anne
+                of Green Gables</a>
+        </div>
+
+        <div class="navElement">
+            <a href="https://www.goodreads.com/book/show/1934.Little_Women?">Little Women</a>
+        </div>
+
+        <div class="navElement">
+            <span style="font-size: 35px; font-weight:bolder; font-family: 'Playfair Display', Courier;">
+                CASTLES IN THE AIR
+            </span>
+        </div>
+
+        <div class="navElement">
+            <a
+                href="https://www.goodreads.com/book/show/114345.The_Little_House_Collection?from_search=true&from_srp=true&qid=y9xlZK7lzD&rank=3">
+                Little House</a>
+        </div>
+
+        <div class="navElement">
+            <a href="https://youtu.be/6Fft9DLIp7E">Through the Wardrobe</a>
+        </div>
+    </div>
+    <p style="border-bottom: 1.5px solid black; padding-bottom: 15px; margin-bottom: 10px"></p>
+    <!-- Navbar END -->
+
+    <!-- Two Columns Start: framework from Boostrap-->
+    <div> <!--SO long story short I did this part forgetting the link to the Bootstrap stylesheet, so when I finally added it 
+           everything misaligned. I removed the class here and it was good again, so I'm just leaving it at that...-->
+        <div class="row introContent">
+            <div class="col introContentImage">
+                <img id=Selo src="SeloEditedcropped.jpg">
+                <img id=introBook src="Open book.png">
+                <img id=birds src="transparent-birds-flying-1.png">
+            </div>
+            <!--Bootstrap Quote Framework-->
+            <div class="col align-self-start introContentQuote">
+                <div id="myName"> Ariana Overko </div>
+                <hr style="opacity:100%; margin-bottom: 25px">
+                <blockquote class="blockquote mainQuote">
+                    <p>"Few things leave a deeper mark on the reader, than the first book that finds its way to his
+                        heart."</p>
+                </blockquote>
+                <figcaption class="blockquote-footer mainQuoteCaption">
+                    Carlos Ruiz Zafon
+                </figcaption>
+                <hr style="opacity:100%; size: 1.5px">
+            </div>
+        </div>
+    </div>
+    <!--Two Columns END-->
+    <!--<hr id="dividerLine">-->
+    <hr style="margin-top: 156px; margin-bottom: 40px; opacity: 100%; width: 60%; margin-left: 250px">
+
+    <!-- Book Covers START: framework from Boostrap ~ includes Cards and Modals -->
+    <h2 style="text-align: center; font-family: 'DM Serif Display'; margin-bottom: 40px"> My Castles in the Air </h2>
+    <!--<hr style="margin-top: 50px; margin-bottom: 30px; opacity: 100%; width: 60%; margin-left: 250px">-->
+
+    <div class="container text-center">
+        <div class="row modalCol">
+            <!-- LITTLE WOMEN Card-->
+            <div class="col lilWomen">
+                <div class="card" style="width: 18rem;">
+                    <img src="Little Women Cover.jpg" class="card-img-top lilWomenCover" alt="Little Women Book">
+                    <div class="card-body">
+                        <p class="card-text">"Wouldn't it be fun if all the castles in the air which we make could come true, and we could live in them?"</p>
+                        <div>
+                            <button type="button" class="btn myButton" data-bs-toggle="modal"
+                                data-bs-target="#lilWomenModal">
+                                Explore
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+
+                    <!-- LITTLE WOMEN Modal -->
+                    <div class="modal fade" id="lilWomenModal" tabindex="-1"
+                        aria-labelledby="lilWomenModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title" id="lilWomenModalLabel">Little Women</h1>
+                                </div>
+                                <div class="modal-body">
+                                    <img class="openBook" src="book-png-transparent-15.png">
+                                    <img class="lilWomenGIF" src="Little Women Attic.gif">
+                                </div>
+                                <div class="modal-footer">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ANNE Card-->
+            <div class="col Anne">
+                <div class="card" style="width: 18rem;">
+                    <img src="Anne Cover.jpg" class="card-img-top anneCover" alt="Anne of Green Gables Book">
+                    <div class="card-body">
+                        <p class="card-text">“Kindred spirits are not so scarce as I used to think. It’s splendid to find out there are so many of them in the world.”</p>
+                        <div>
+                            <button type="button" class="btn myButton" data-bs-toggle="modal"
+                                data-bs-target="#anneModal">
+                                Explore
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- ANNE Modal -->
+                <div class="modal fade" id="anneModal" tabindex="-1"
+                    aria-labelledby="anneModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="anneModalLabel">Anne of Green Gables</h1>
+                            </div>
+                            <div class="modal-body">
+                                <img class="openBook" src="book-png-transparent-15.png">
+                                <img class="anneGIF" src="Anne and Diana.gif">
+                            </div>
+                            <div class="modal-footer">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LITTLE HOUSE Card-->
+            <div class="col lilHouse">
+                <div class="card" style="width: 18rem;">
+                    <img src="Little House Cover.jfif" class="card-img-top lilHouseCover"
+                        alt="Little House on the Prairie Book">
+                    <div class="card-body">
+                        <p class="card-text">“We start learning the minute we're born, Laura. And if we're wise, we don't stop until the Lord calls us home.”</p>
+                        <div>
+                            <button type="button" class="btn myButton" data-bs-toggle="modal"
+                                data-bs-target="#lilHouseModal">
+                                Explore
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- LITTLE HOUSE Modal -->
+                <div class="modal fade" id="lilHouseModal" tabindex="-1"
+                    aria-labelledby="lilHouseModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title" id="lilHouseModalLabel">Little House</h1>
+                            </div>
+                            <div class="modal-body">
+                                <img class="openBook" src="book-png-transparent-15.png">
+                                <img class="lilHouseGIF" src="Little House.gif">
+                            </div>
+                            <div class="modal-footer">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

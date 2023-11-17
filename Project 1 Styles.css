@@ -1,0 +1,263 @@
+body { background-color: #ece9df;}
+
+    a:link {
+        text-decoration: none;
+        color: black;
+    }
+
+    a:visited {
+        text-decoration: none;
+        color: black;
+    }
+
+    a:hover {
+        text-decoration: none;
+        color: black;
+    }
+
+    a:active {
+        text-decoration: none;
+        color: black;
+    }
+
+    /*Learned all about display flexing here! No need for tables! Basically matroshki*/
+    /*Navbar*/
+    #navContent {
+        width: auto;
+        margin: auto;
+        height: auto;
+        display: flex;
+    }
+
+    .navElement {
+        width: auto;
+        height: auto;
+        margin: auto;
+        position: relative;
+        font-family: 'source serif pro', Georgia;
+        font-size: 17px;
+        text-align: center;
+    }
+
+    /*Intro Content: image and quote*/
+    .introContent {
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        position: center;
+
+    }
+
+    .introContentImage {
+        width: auto;
+        height: 25px;
+        margin: 50px;
+    }
+    #Selo {
+        position: relative;
+        left: 150px;
+        width: 50%;
+        height: auto;
+        border-top-left-radius: 44.5%;
+        border-top-right-radius: 44.5%;
+       /* box-shadow: 10px 10px black;*/
+    }
+    #introBook {
+        position: absolute;
+        left: 120px;
+        right: 50px;
+        width: 20%;
+        margin-top: 260px;
+        transform:rotate(30deg);
+        filter: saturate(80%);
+
+    }
+    #birds {
+        position: absolute;
+        left: 300px;
+        width: 25%;
+        margin-top: -40px;
+        transform:rotate(8deg);
+    }
+
+    .introContentQuote {
+        margin-top: 130px;
+        position: relative;
+        right: 80px;
+        text-align: center;
+    }
+
+    #myName {
+        font-family: 'DM Serif Display', serif;
+        font-weight: 500;
+        font-size: 200%;
+        text-align: left;
+    }
+
+    .mainQuote {
+        font-size: 20px;
+        font-family: 'Roboto Slab';
+    }
+
+    .mainQuoteCaption {
+        padding: 5px;
+        font-size: 16px;
+        font-family: 'Roboto Slab';
+        font-weight: lighter;
+        color:rgb(36, 36, 36);
+        text-align: right;
+    }
+
+   /* #dividerLine { 
+        border: none;
+        height: 1.5px;
+        background-color: black;
+        width: 75%;
+        align-content: center;
+        margin-top: 140px;
+    } */
+
+
+    .modalCol {
+        width: auto;
+        height: 20px;
+        margin: 20px;
+        position: relative;
+        flex-wrap: wrap;
+        display: flex;
+    }
+
+    .card {
+        background-color:#f7f6ee;
+        border: solid 2px rgb(70, 70, 70);
+        border-radius: 0px;
+        outline: solid 1.5px rgb(70, 70, 70);
+        outline-offset: -15px; 
+        box-shadow: 10px 10px rgb(70, 70, 70);
+        margin-bottom: 30px;
+    }
+       .card-text {
+        margin-top: -15px; 
+        margin-left: 5px;
+        margin-right: 5px;
+         font-family: 'Roboto Slab';
+         font-size: 15px;
+
+    }
+    .myButton {
+        margin-top: 0px;
+        margin-bottom: -4px;
+        margin-left: -4px;
+        color: black;
+        background-color: #f3f1e6;
+        border-color: black;
+        border-radius: 0px;
+        font-family: 'Slabo 27px';
+        font-weight: bolder;
+        padding-left: 100px;
+        padding-right: 110px;
+    }
+    .myButton:hover {
+        background-color: #e7e5da; 
+        border-color: black;
+        color: black  
+    }
+    .myButton:focus {
+        background-color: #e7e5da; 
+        border-color: black;
+        color: black  
+    }
+
+
+    .lilWomen {
+      right: 400px;
+    }
+    .lilWomenCover {
+        width: 70%;
+        padding: 15px;
+        padding-top: 30px;
+        position: relative;
+        left: 42px;
+    }
+
+    .Anne {
+       position: relative;
+       left: 20px; 
+    }
+    .anneCover {
+        width: 70%;
+        padding: 15px;
+        padding-top: 30px;
+        position: relative;
+        left: 43px;
+    }
+    
+
+    .lilHouse {
+        position: relative;
+        left: 47px;
+    }
+    .lilHouseCover {
+        width: 66.5%;
+        padding: 15px;
+        padding-top: 30px;
+        position: relative;
+        left: 48px;
+    }
+
+    .modal-content {
+        background-color:#e7e6e1;
+        border-radius: 8px;
+        outline: solid 1.5px rgb(70, 70, 70);
+        outline-offset: -20px;
+    }
+    .modal-header {
+        border: none;
+    }
+    .modal-footer {
+        border: none;
+    }
+   
+    .openBook {
+        width: 90%;
+        margin-top: -30px;
+    }
+
+    #lilWomenModalLabel {
+        font-family: 'DM Serif Display';
+        font-size: 35px;
+        margin-left: 130px; 
+        margin-top: 20px;
+    }
+    .lilWomenGIF {
+        width: 60%;
+        position: relative;
+        margin-top: -400px;  
+        border-radius: 100px;
+    }
+
+    #anneModalLabel {
+        font-family: 'DM Serif Display';
+        font-size: 35px;
+        margin-left: 62px;
+        margin-top: 20px;
+    }
+    .anneGIF {
+        width: 50%;
+        position: relative;
+        margin-top: -400px;  
+        border-radius: 100px;
+    }
+
+    #lilHouseModalLabel {
+        font-family: 'DM Serif Display';
+        font-size: 35px;
+        margin-left: 138px;
+        margin-top: 20px;
+    }
+    .lilHouseGIF {
+        width: 50%;
+        position: relative;
+        margin-top: -400px;
+        border-radius: 100px;
+    }
