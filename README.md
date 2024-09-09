@@ -1,3 +1,7 @@
+# Website Design
+![image](<front_end_screenshot_1.png>)
+![image](<front_end_screenshot_2.png>)
+
 ## About the Project
 
 This project was intended as an exploration of traditional web design by creating a static html page which incorporates the Bootstrap library. The prompt was to display individual interests, which are reflected in the subject matter and style choices.
